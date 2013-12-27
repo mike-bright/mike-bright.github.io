@@ -4,7 +4,7 @@
   <title><![CDATA[Mike's Code Journal]]></title>
   <link href="http://mike-bright.github.io/atom.xml" rel="self"/>
   <link href="http://mike-bright.github.io/"/>
-  <updated>2013-12-27T12:05:01-05:00</updated>
+  <updated>2013-12-27T18:08:22-05:00</updated>
   <id>http://mike-bright.github.io/</id>
   <author>
     <name><![CDATA[Mike Bright]]></name>
@@ -18,16 +18,7 @@
     <link href="http://mike-bright.github.io/blog/2013/12/27/first-post/"/>
     <updated>2013-12-27T07:48:53-05:00</updated>
     <id>http://mike-bright.github.io/blog/2013/12/27/first-post</id>
-    <content type="html"><![CDATA[<p>This is the first post of this blog. Built using <a href="{http://octopress.org}">Octopress</a>!</p>
-
-<figure class='code'><figcaption><span>Code test</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This is a test&#39;</span><span class="p">);</span>
-</span><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;This is a test&#39;</span><span class="p">);</span>
-</span><span class='line'><span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="s1">&#39;This is a test&#39;</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
+    <content type="html"><![CDATA[<p>This is the first post of this blog. It is built using <a href="http://octopress.org">Octopress</a>! I used the theme <a href="https://github.com/shashankmehta/greyshade">Greyshade</a>. I plan on using this site to document anything I find while coding. I mainly work with PHP and Javascript, but I plan on growing that list :).</p>
 ]]></content>
   </entry>
   

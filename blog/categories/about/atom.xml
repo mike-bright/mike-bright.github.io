@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: boring | Mike's Code Journal]]></title>
-  <link href="http://mike-bright.github.io/blog/categories/boring/atom.xml" rel="self"/>
+  <title><![CDATA[Category: about | Mike's Code Journal]]></title>
+  <link href="http://mike-bright.github.io/blog/categories/about/atom.xml" rel="self"/>
   <link href="http://mike-bright.github.io/"/>
-  <updated>2013-12-27T12:05:01-05:00</updated>
+  <updated>2013-12-27T18:08:22-05:00</updated>
   <id>http://mike-bright.github.io/</id>
   <author>
     <name><![CDATA[Mike Bright]]></name>
@@ -18,12 +18,7 @@
     <link href="http://mike-bright.github.io/blog/2013/12/27/first-post/"/>
     <updated>2013-12-27T07:48:53-05:00</updated>
     <id>http://mike-bright.github.io/blog/2013/12/27/first-post</id>
-    <content type="html"><![CDATA[<p>This is the first post of this blog. Built using <a href="{http://octopress.org}">Octopress</a>!
-<code>javascript Code test
-console.log('This is a test');
-alert('This is a test');
-var test = 'This is a test';
-</code></p>
+    <content type="html"><![CDATA[<p>This is the first post of this blog. It is built using <a href="http://octopress.org">Octopress</a>! I used the theme <a href="https://github.com/shashankmehta/greyshade">Greyshade</a>. I plan on using this site to document anything I find while coding. I mainly work with PHP and Javascript, but I plan on growing that list :).</p>
 ]]></content>
   </entry>
   
