@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Text | Mike's Code Journal]]></title>
   <link href="http://mike-bright.github.io/blog/categories/text/atom.xml" rel="self"/>
   <link href="http://mike-bright.github.io/"/>
-  <updated>2013-12-27T08:05:23-05:00</updated>
+  <updated>2013-12-27T08:53:00-05:00</updated>
   <id>http://mike-bright.github.io/</id>
   <author>
     <name><![CDATA[Mike Bright]]></name>
@@ -19,7 +19,7 @@
     <updated>2013-12-27T07:48:53-05:00</updated>
     <id>http://mike-bright.github.io/blog/2013/12/27/first-post</id>
     <content type="html"><![CDATA[<p>This is the first post of this blog. Built using <a href="{http://octopress.org}">Octopress</a>!
-<code>[Javascript] [Code test]
+<code>javascript Code test
 console.log('This is a test');
 alert('This is a test');
 var test = 'This is a test';

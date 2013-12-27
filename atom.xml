@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Mike's Code Journal]]></title>
   <link href="http://mike-bright.github.io/atom.xml" rel="self"/>
   <link href="http://mike-bright.github.io/"/>
-  <updated>2013-12-27T07:43:31-05:00</updated>
+  <updated>2013-12-27T08:53:00-05:00</updated>
   <id>http://mike-bright.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Mike Bright]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[First Post]]></title>
+    <link href="http://mike-bright.github.io/blog/2013/12/27/first-post/"/>
+    <updated>2013-12-27T07:48:53-05:00</updated>
+    <id>http://mike-bright.github.io/blog/2013/12/27/first-post</id>
+    <content type="html"><![CDATA[<p>This is the first post of this blog. Built using <a href="{http://octopress.org}">Octopress</a>!</p>
+
+<figure class='code'><figcaption><span>Code test</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;This is a test&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="nx">alert</span><span class="p">(</span><span class="s1">&#39;This is a test&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">test</span> <span class="o">=</span> <span class="s1">&#39;This is a test&#39;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
