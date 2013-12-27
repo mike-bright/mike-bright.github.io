@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://mike-bright.github.io/atom.xml" rel="self"/>
+  <link href="http://mike-bright.github.io/"/>
+  <updated>2013-12-27T07:43:31-05:00</updated>
+  <id>http://mike-bright.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
