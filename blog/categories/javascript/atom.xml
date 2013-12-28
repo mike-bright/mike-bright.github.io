@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Javascript | Mike's Code Journal]]></title>
+  <link href="http://mike-bright.github.io/blog/categories/javascript/atom.xml" rel="self"/>
+  <link href="http://mike-bright.github.io/"/>
+  <updated>2013-12-27T19:22:31-05:00</updated>
+  <id>http://mike-bright.github.io/</id>
+  <author>
+    <name><![CDATA[Mike Bright]]></name>
+    <email><![CDATA[brightvette@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Binding to a select element click in WebKit]]></title>
+    <link href="http://mike-bright.github.io/blog/2013/12/27/binding-to-a-select-element-click-in-webkit/"/>
+    <updated>2013-12-27T18:24:32-05:00</updated>
+    <id>http://mike-bright.github.io/blog/2013/12/27/binding-to-a-select-element-click-in-webkit</id>
+    <content type="html"><![CDATA[<p>Recently, I ran into a problem triggering a popup when a select element had been clicked. In Safari, the click event does not trigger until one of the options have been clicked. After Google-ing the issue, I found a solution.</p>
+
+<!--more-->
+
+
+<p>Binding the function to the focus event does the trick! But, if we want to display something over the select element, this does not work. As shown in this JSFiddle, the dropdown is displayed over the pop-up:
+<iframe style="width: 100%; height: 300px" frameborder="0" seamless="seamless" src="http://jsfiddle.net/fChrF/embedded/js,resources,html,css,result/light/"></iframe></p>
+
+<blockquote><p><em>Note: This occurs in every browser.</em></p></blockquote>
+
+<p>Luckily, there is a way to get around this. By using jQuery&rsquo;s <a href="http://api.jquery.com/clone/">clone</a> and <a href="http://api.jquery.com/replaceWith/">replaceWith</a> methods, we can clone and then replace the select element with itself after it has been clicked:
+<iframe style="width: 100%; height: 300px" frameborder="0" seamless="seamless" src="http://jsfiddle.net/g8HMQ/embedded/js,resources,html,css,result/light/"></iframe>
+And that&rsquo;s it! Again, this is only useful if you would like to display a popup after a select element has been clicked in <a href="http://www.webkit.org">WebKit</a> browsers.</p>
+
+<p>Let me know if you have any other solutions or thoughts.</p>
+]]></content>
+  </entry>
+  
+</feed>
